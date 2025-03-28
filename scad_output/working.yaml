@@ -1,4 +1,86 @@
 parts:
+  flat_3_width_1_height_6_mm_depth:
+    classification: project
+    color: oomlout_ball_run
+    description_extra: ''
+    description_main: flat_3_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_ball_run_flat_3_width_1_height_6_mm_depth
+    id_oobb: oobb_part_oomlout_ball_run_flat_3_width_1_height_6_mm_depth
+    kwargs:
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: false
+      oomp_classification: project
+      oomp_color: oomlout_ball_run
+      oomp_description_extra: ''
+      oomp_description_main: flat_3_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      thickness: 6
+      type: oomlout_ball_run_flat
+      width: 3
+    manufacturer: ''
+    name: flat
+    part_number: ''
+    project_name: C:\gh\oomlout_ball_run
+    size: oomlout
+    type: github
+  flat_6_width_1_height_6_mm_depth:
+    classification: project
+    color: oomlout_ball_run
+    description_extra: ''
+    description_main: flat_6_width_1_height_6_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_ball_run_flat_6_width_1_height_6_mm_depth
+    id_oobb: oobb_part_oomlout_ball_run_flat_6_width_1_height_6_mm_depth
+    kwargs:
+      filter: ''
+      height: 1
+      modes:
+      - 3dpr
+      navigation: false
+      oomp_classification: project
+      oomp_color: oomlout_ball_run
+      oomp_description_extra: ''
+      oomp_description_main: flat_6_width_1_height_6_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: false
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      thickness: 6
+      type: oomlout_ball_run_flat
+      width: 6
+    manufacturer: ''
+    name: flat
+    part_number: ''
+    project_name: C:\gh\oomlout_ball_run
+    size: oomlout
+    type: github
   test_3_width_3_height_9_mm_depth_10_mm_extra:
     classification: project
     color: oomlout_ball_run
@@ -20,7 +102,7 @@ parts:
       height: 3
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: project
       oomp_color: oomlout_ball_run
       oomp_description_extra: 10_mm_extra
@@ -28,12 +110,11 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 9
-      typ: all
       type: oomlout_ball_run_test
       width: 3
     manufacturer: ''
@@ -63,7 +144,7 @@ parts:
       height: 3
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: project
       oomp_color: oomlout_ball_run
       oomp_description_extra: 6_mm_extra
@@ -71,12 +152,11 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 9
-      typ: all
       type: oomlout_ball_run_test
       width: 3
     manufacturer: ''
@@ -106,7 +186,7 @@ parts:
       height: 3
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: project
       oomp_color: oomlout_ball_run
       oomp_description_extra: 8_mm_extra
@@ -114,12 +194,11 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 9
-      typ: all
       type: oomlout_ball_run_test
       width: 3
     manufacturer: ''

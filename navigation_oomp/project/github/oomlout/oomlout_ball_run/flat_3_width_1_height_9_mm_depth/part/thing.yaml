@@ -1,0 +1,180 @@
+classification: project
+color: oomlout_ball_run
+description_extra: ''
+description_main: flat_3_width_1_height_9_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: project_github_oomlout_oomlout_ball_run_flat_3_width_1_height_9_mm_depth
+id_oobb: oobb_part_oomlout_ball_run_flat_3_width_1_height_9_mm_depth
+kwargs:
+  filter: ''
+  height: 1
+  modes:
+  - 3dpr
+  navigation: false
+  oomp_classification: project
+  oomp_color: oomlout_ball_run
+  oomp_description_extra: ''
+  oomp_description_main: flat_3_width_1_height_9_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: project
+  oomp_part_number: ''
+  oomp_run: false
+  oomp_size: oomlout
+  oomp_type: github
+  overwrite: true
+  thickness: 9
+  type: oomlout_ball_run_flat
+  width: 3
+manufacturer: ''
+name: flat
+part_number: ''
+project_name: C:\gh\oomlout_ball_run
+size: oomlout
+thing:
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 9
+      height: 1
+      pos:
+      - 0
+      - 0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 44
+      - 14
+      - 9
+      type: positive
+      width: 3
+  - - depth: 45
+      h: 45
+      height: 1
+      inclusion: laser
+      m: '#'
+      pos: &id001
+      - -22.5
+      - 0
+      - 8.0
+      r: 3.175
+      radius: 3.175
+      rot: &id002
+      - 0
+      - 90
+      - 0
+      shape: cylinder
+      type: negative
+      width: 3
+    - depth: 45
+      h: 45
+      height: 1
+      inclusion: 3dpr
+      m: '#'
+      pos: *id001
+      r: 3.175
+      rot: *id002
+      shape: cylinder
+      type: negative
+      width: 3
+    - depth: 45
+      h: 45
+      height: 1
+      inclusion: 'true'
+      m: '#'
+      pos: *id001
+      r: 3.175
+      radius: 3.175
+      rot: *id002
+      shape: cylinder
+      type: negative
+      width: 3
+  components_objects:
+  - depth: 9
+    filter: ''
+    height: 1
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    save_type: none
+    shape: oobb_plate
+    thickness: 9
+    type: positive
+    width: 3
+  - depth: 45
+    filter: ''
+    height: 1
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -22.5
+    - 0
+    - 30.5
+    radius: 3.175
+    rot:
+    - 0
+    - 90
+    - 0
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 9
+    type: negative
+    width: 3
+  components_string:
+  - oobb_plate_shape_positive_type_9_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color
+  - oobb_cylinder_shape_negative_type_45_depth_-22.5_0_30.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_1_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_0_90_0_rot_3.175_radius
+  description: oomlout ball run flat 3x1x9
+  description_extra: ''
+  description_main: 3_width_1_height_9_mm_depth
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_ball_run_flat_3_width_1_height_9_mm_depth
+  height: 1
+  height_mm: 14
+  id: oobb_part_oomlout_ball_run_flat_3_width_1_height_9_mm_depth
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_ball_run_flat/3_width_1_height_9_mm_depth/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_ball_run_flat_03_01_09
+  manufacturer: ''
+  name: Oobb Part Oomlout Ball Run Flat 3 Width 1 Height 9 mm Depth
+  name_short: 'Oomlout Ball Run Flat 3x1x9 '
+  part_number: ''
+  short_name: ''
+  size: oomlout_ball_run_flat
+  thickness: 9
+  thickness_mm: 9
+  type: part
+  width: 3
+  width_mm: 44
+type: github

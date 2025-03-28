@@ -18,7 +18,7 @@ kwargs:
   height: 3
   modes:
   - 3dpr
-  navigation: true
+  navigation: false
   oomp_classification: project
   oomp_color: oomlout_ball_run
   oomp_description_extra: 6_mm_extra
@@ -26,12 +26,11 @@ kwargs:
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
-  oomp_run: true
+  oomp_run: false
   oomp_size: oomlout
   oomp_type: github
   overwrite: true
   thickness: 9
-  typ: all
   type: oomlout_ball_run_test
   width: 3
 manufacturer: ''
@@ -67,8 +66,8 @@ thing:
       - -15.0
       - 22.5
       - 0.0
-      r: 3.125
-      radius: 3.125
+      r: 3.175
+      radius: 3.175
       rot: &id002
       - 90
       - 0
@@ -83,7 +82,7 @@ thing:
       inclusion: 3dpr
       m: '#'
       pos: *id001
-      r: 3.125
+      r: 3.175
       rot: *id002
       shape: cylinder
       type: negative
@@ -95,8 +94,8 @@ thing:
       inclusion: 'true'
       m: '#'
       pos: *id001
-      r: 3.125
-      radius: 3.125
+      r: 3.175
+      radius: 3.175
       rot: *id002
       shape: cylinder
       type: negative
@@ -111,8 +110,8 @@ thing:
       - -7.5
       - 22.5
       - 1.0
-      r: 3.125
-      radius: 3.125
+      r: 3.175
+      radius: 3.175
       rot: &id004
       - 90
       - 0
@@ -127,7 +126,7 @@ thing:
       inclusion: 3dpr
       m: '#'
       pos: *id003
-      r: 3.125
+      r: 3.175
       rot: *id004
       shape: cylinder
       type: negative
@@ -139,8 +138,8 @@ thing:
       inclusion: 'true'
       m: '#'
       pos: *id003
-      r: 3.125
-      radius: 3.125
+      r: 3.175
+      radius: 3.175
       rot: *id004
       shape: cylinder
       type: negative
@@ -155,8 +154,8 @@ thing:
       - 0.0
       - 22.5
       - 2.0
-      r: 3.125
-      radius: 3.125
+      r: 3.175
+      radius: 3.175
       rot: &id006
       - 90
       - 0
@@ -171,7 +170,7 @@ thing:
       inclusion: 3dpr
       m: '#'
       pos: *id005
-      r: 3.125
+      r: 3.175
       rot: *id006
       shape: cylinder
       type: negative
@@ -183,8 +182,8 @@ thing:
       inclusion: 'true'
       m: '#'
       pos: *id005
-      r: 3.125
-      radius: 3.125
+      r: 3.175
+      radius: 3.175
       rot: *id006
       shape: cylinder
       type: negative
@@ -199,8 +198,8 @@ thing:
       - 7.5
       - 22.5
       - 3.0
-      r: 3.125
-      radius: 3.125
+      r: 3.175
+      radius: 3.175
       rot: &id008
       - 90
       - 0
@@ -215,7 +214,7 @@ thing:
       inclusion: 3dpr
       m: '#'
       pos: *id007
-      r: 3.125
+      r: 3.175
       rot: *id008
       shape: cylinder
       type: negative
@@ -227,8 +226,8 @@ thing:
       inclusion: 'true'
       m: '#'
       pos: *id007
-      r: 3.125
-      radius: 3.125
+      r: 3.175
+      radius: 3.175
       rot: *id008
       shape: cylinder
       type: negative
@@ -243,8 +242,8 @@ thing:
       - 15.0
       - 22.5
       - 4.0
-      r: 3.125
-      radius: 3.125
+      r: 3.175
+      radius: 3.175
       rot: &id010
       - 90
       - 0
@@ -259,7 +258,7 @@ thing:
       inclusion: 3dpr
       m: '#'
       pos: *id009
-      r: 3.125
+      r: 3.175
       rot: *id010
       shape: cylinder
       type: negative
@@ -271,8 +270,8 @@ thing:
       inclusion: 'true'
       m: '#'
       pos: *id009
-      r: 3.125
-      radius: 3.125
+      r: 3.175
+      radius: 3.175
       rot: *id010
       shape: cylinder
       type: negative
@@ -284,7 +283,7 @@ thing:
     height: 3
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -292,7 +291,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -300,10 +299,9 @@ thing:
     - 0
     - 0
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_plate
     thickness: 9
-    typ: all
     type: positive
     width: 3
   - depth: 45
@@ -313,7 +311,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -321,7 +319,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -329,15 +327,14 @@ thing:
     - -15.0
     - 22.5
     - 22.5
-    radius: 3.125
+    radius: 3.175
     rot:
     - 90
     - 0
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
     thickness: 9
-    typ: all
     type: negative
     width: 3
   - depth: 45
@@ -347,7 +344,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -355,7 +352,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -363,15 +360,14 @@ thing:
     - -7.5
     - 22.5
     - 23.5
-    radius: 3.125
+    radius: 3.175
     rot:
     - 90
     - 0
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
     thickness: 9
-    typ: all
     type: negative
     width: 3
   - depth: 45
@@ -381,7 +377,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -389,7 +385,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -397,15 +393,14 @@ thing:
     - 0.0
     - 22.5
     - 24.5
-    radius: 3.125
+    radius: 3.175
     rot:
     - 90
     - 0
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
     thickness: 9
-    typ: all
     type: negative
     width: 3
   - depth: 45
@@ -415,7 +410,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -423,7 +418,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -431,15 +426,14 @@ thing:
     - 7.5
     - 22.5
     - 25.5
-    radius: 3.125
+    radius: 3.175
     rot:
     - 90
     - 0
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
     thickness: 9
-    typ: all
     type: negative
     width: 3
   - depth: 45
@@ -449,7 +443,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -457,7 +451,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: true
+    oomp_run: false
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -465,24 +459,23 @@ thing:
     - 15.0
     - 22.5
     - 26.5
-    radius: 3.125
+    radius: 3.175
     rot:
     - 90
     - 0
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
     thickness: 9
-    typ: all
     type: negative
     width: 3
   components_string:
-  - oobb_plate_shape_positive_type_9_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_6_mm_extra
-  - oobb_cylinder_shape_negative_type_45_depth_-15.0_22.5_22.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_6_mm_extra_90_0_0_rot_3.125_radius
-  - oobb_cylinder_shape_negative_type_45_depth_-7.5_22.5_23.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_6_mm_extra_90_0_0_rot_3.125_radius
-  - oobb_cylinder_shape_negative_type_45_depth_0.0_22.5_24.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_6_mm_extra_90_0_0_rot_3.125_radius
-  - oobb_cylinder_shape_negative_type_45_depth_7.5_22.5_25.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_6_mm_extra_90_0_0_rot_3.125_radius
-  - oobb_cylinder_shape_negative_type_45_depth_15.0_22.5_26.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_6_mm_extra_90_0_0_rot_3.125_radius
+  - oobb_plate_shape_positive_type_9_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_6_mm_extra
+  - oobb_cylinder_shape_negative_type_45_depth_-15.0_22.5_22.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_6_mm_extra_90_0_0_rot_3.175_radius
+  - oobb_cylinder_shape_negative_type_45_depth_-7.5_22.5_23.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_6_mm_extra_90_0_0_rot_3.175_radius
+  - oobb_cylinder_shape_negative_type_45_depth_0.0_22.5_24.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_6_mm_extra_90_0_0_rot_3.175_radius
+  - oobb_cylinder_shape_negative_type_45_depth_7.5_22.5_25.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_6_mm_extra_90_0_0_rot_3.175_radius
+  - oobb_cylinder_shape_negative_type_45_depth_15.0_22.5_26.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_9_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_6_mm_extra_90_0_0_rot_3.175_radius
   description: oomlout ball run test 3x3x9
   description_extra: 6_mm_extra
   description_main: 3_width_3_height_9_mm_depth
