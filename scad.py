@@ -133,6 +133,9 @@ def make_scad(**kwargs):
                 p3["oomp_size"] = nam
             parts.append(part)
 
+        lengths = []
+        lengths.append(3)
+
 
     kwargs["parts"] = parts
 
@@ -252,10 +255,11 @@ def get_test(thing, **kwargs):
         times = 4
         if "6_mm" in extra:
             rad = 6/2
-            clear = 0.25/2
+            clear = 0.35/2
             rad_full = rad + clear
             gap = 7.5
             times = 5
+        
         
         
         p3 = copy.deepcopy(kwargs)
