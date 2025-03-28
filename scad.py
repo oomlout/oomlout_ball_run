@@ -112,18 +112,26 @@ def make_scad(**kwargs):
         part_default["full_shift"] = [0, 0, 0]
         part_default["full_rotations"] = [0, 0, 0]
         
-        part = copy.deepcopy(part_default)
-        p3 = copy.deepcopy(kwargs)
-        p3["width"] = 3
-        p3["height"] = 3
-        #p3["thickness"] = 6
-        #p3["extra"] = ""
-        part["kwargs"] = p3
-        nam = "base"
-        part["name"] = nam
-        if oomp_mode == "oobb":
-            p3["oomp_size"] = nam
-        #parts.append(part)
+
+        extras = []
+        extras.append("6_mm")
+        extras.append("8_mm")
+        extras.append("10_mm")
+
+        for extra in extras:
+            part = copy.deepcopy(part_default)
+            p3 = copy.deepcopy(kwargs)
+            p3["width"] = 3
+            p3["height"] = 3
+            p3["thickness"] = 9
+            if extra != "":
+                p3["extra"] = extra
+            part["kwargs"] = p3
+            nam = "test"
+            part["name"] = nam
+            if oomp_mode == "oobb":
+                p3["oomp_size"] = nam
+            parts.append(part)
 
 
     kwargs["parts"] = parts
@@ -201,7 +209,110 @@ def get_base(thing, **kwargs):
         p3["pos"] = pos1
         #p3["m"] = "#"
         oobb_base.append_full(thing,**p3)
+
+def get_test(thing, **kwargs):
+
+    prepare_print = kwargs.get("prepare_print", False)
+    width = kwargs.get("width", 1)
+    height = kwargs.get("height", 1)
+    depth = kwargs.get("thickness", 3)                    
+    rot = kwargs.get("rot", [0, 0, 0])
+    pos = kwargs.get("pos", [0, 0, 0])
+    extra = kwargs.get("extra", "")
     
+    #add plate
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "positive"
+    p3["shape"] = f"oobb_plate"    
+    p3["depth"] = depth
+    #p3["holes"] = True         uncomment to include default holes
+    #p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)         
+    p3["pos"] = pos1
+    oobb_base.append_full(thing,**p3)
+    
+    #add holes seperate
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "p"
+    p3["shape"] = f"oobb_holes"
+    p3["both_holes"] = True  
+    p3["depth"] = depth
+    p3["holes"] = "perimeter"
+    #p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)         
+    p3["pos"] = pos1
+    #oobb_base.append_full(thing,**p3)
+
+    #add ball run tests
+    if True:
+        rad = 3
+        gap = 10
+        clear = 0.25/2
+        rad_full = 5
+        times = 4
+        if "6_mm" in extra:
+            rad = 6/2
+            clear = 0.25/2
+            rad_full = rad + clear
+            gap = 7.5
+            times = 5
+        
+        
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "negative"
+        p3["shape"] = f"oobb_cylinder"
+        dep = 45
+        p3["depth"] = dep
+        p3["m"] = "#"
+        rot1 = copy.deepcopy(rot)
+        rot1[0] += 90
+        p3["rot"] = rot1
+        start_y = -times/2 * gap + gap/2
+        for i in range(times):
+            p4 = copy.deepcopy(p3)
+            pos1 = copy.deepcopy(pos)
+            pos1[0] += start_y + i * gap
+            pos1[1] += dep/2
+            pos1[2] += dep/2 + i * 1
+            p4["pos"] = pos1
+            p4["radius"] = rad_full
+            oobb_base.append_full(thing,**p4)
+
+
+        
+    
+    
+
+
+
+
+    if prepare_print:
+        #put into a rotation object
+        components_second = copy.deepcopy(thing["components"])
+        return_value_2 = {}
+        return_value_2["type"]  = "rotation"
+        return_value_2["typetype"]  = "p"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 50
+        return_value_2["pos"] = pos1
+        return_value_2["rot"] = [180,0,0]
+        return_value_2["objects"] = components_second
+        
+        thing["components"].append(return_value_2)
+
+    
+        #add slice # top
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_slice"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += -500/2
+        pos1[1] += 0
+        pos1[2] += -500/2        
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
 if __name__ == '__main__':
     kwargs = {}
     main(**kwargs)
