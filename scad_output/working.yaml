@@ -19,7 +19,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_ball_run
       oomp_description_extra: ''
@@ -27,11 +27,12 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 6
+      typ: all
       type: oomlout_ball_run_flat
       width: 3
     manufacturer: ''
@@ -60,7 +61,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_ball_run
       oomp_description_extra: ''
@@ -68,11 +69,12 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 6
+      typ: all
       type: oomlout_ball_run_flat
       width: 6
     manufacturer: ''
@@ -102,7 +104,7 @@ parts:
       height: 3
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_ball_run
       oomp_description_extra: 10_mm_extra
@@ -110,11 +112,12 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 9
+      typ: all
       type: oomlout_ball_run_test
       width: 3
     manufacturer: ''
@@ -144,7 +147,7 @@ parts:
       height: 3
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_ball_run
       oomp_description_extra: 6_mm_extra
@@ -152,11 +155,12 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 9
+      typ: all
       type: oomlout_ball_run_test
       width: 3
     manufacturer: ''
@@ -186,7 +190,7 @@ parts:
       height: 3
       modes:
       - 3dpr
-      navigation: false
+      navigation: true
       oomp_classification: project
       oomp_color: oomlout_ball_run
       oomp_description_extra: 8_mm_extra
@@ -194,11 +198,12 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: false
+      oomp_run: true
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 9
+      typ: all
       type: oomlout_ball_run_test
       width: 3
     manufacturer: ''

@@ -422,7 +422,7 @@ def get_flat(thing, **kwargs):
     if True:  
         if size_ball == "6_mm":  
             rad = 6/2
-            clear = 0.35/2
+            clear = 0.5/2 #0.35/2 2 mm push fell out 1 mm push too tight #0.25/2 worked on the 2 mm push one
             rad_full = rad + clear
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "negative"
