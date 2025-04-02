@@ -17,7 +17,7 @@ kwargs:
   height: 3
   modes:
   - 3dpr
-  navigation: false
+  navigation: true
   oomp_classification: project
   oomp_color: oomlout_ball_run
   oomp_description_extra: ''
@@ -25,11 +25,12 @@ kwargs:
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
-  oomp_run: false
+  oomp_run: true
   oomp_size: oomlout
   oomp_type: github
   overwrite: true
   thickness: 4
+  typ: all
   type: oomlout_ball_run_backboard
   width: 3
 manufacturer: ''
@@ -1467,7 +1468,7 @@ thing:
     hole: true
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1475,7 +1476,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1484,16 +1485,17 @@ thing:
     - -15.0
     - 0
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_nut
     thickness: 4
+    typ: all
     type: negative
     width: 3
   - filter: ''
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1501,7 +1503,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1509,13 +1511,14 @@ thing:
     - -15.0
     - -15.0
     - 0
-    save_type: none
+    save_type: all
     shape: rounded_rectangle
     size:
     - 10
     - 10
     - 4
     thickness: 4
+    typ: all
     type: positive
     width: 3
   - extra_clearance: -0.25
@@ -1524,7 +1527,7 @@ thing:
     hole: true
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1532,7 +1535,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1541,16 +1544,17 @@ thing:
     - 0.0
     - 0
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_nut
     thickness: 4
+    typ: all
     type: negative
     width: 3
   - filter: ''
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1558,7 +1562,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1566,13 +1570,14 @@ thing:
     - -15.0
     - 0.0
     - 0
-    save_type: none
+    save_type: all
     shape: rounded_rectangle
     size:
     - 10
     - 10
     - 4
     thickness: 4
+    typ: all
     type: positive
     width: 3
   - extra_clearance: -0.25
@@ -1581,7 +1586,7 @@ thing:
     hole: true
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1589,7 +1594,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1598,16 +1603,17 @@ thing:
     - 15.0
     - 0
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_nut
     thickness: 4
+    typ: all
     type: negative
     width: 3
   - filter: ''
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1615,7 +1621,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1623,13 +1629,14 @@ thing:
     - -15.0
     - 15.0
     - 0
-    save_type: none
+    save_type: all
     shape: rounded_rectangle
     size:
     - 10
     - 10
     - 4
     thickness: 4
+    typ: all
     type: positive
     width: 3
   - extra_clearance: -0.25
@@ -1638,7 +1645,7 @@ thing:
     hole: true
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1646,7 +1653,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1655,16 +1662,17 @@ thing:
     - -15.0
     - 0
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_nut
     thickness: 4
+    typ: all
     type: negative
     width: 3
   - filter: ''
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1672,7 +1680,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1680,13 +1688,14 @@ thing:
     - 0.0
     - -15.0
     - 0
-    save_type: none
+    save_type: all
     shape: rounded_rectangle
     size:
     - 10
     - 10
     - 4
     thickness: 4
+    typ: all
     type: positive
     width: 3
   - extra_clearance: -0.25
@@ -1695,7 +1704,7 @@ thing:
     hole: true
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1703,7 +1712,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1712,16 +1721,17 @@ thing:
     - 0.0
     - 0
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_nut
     thickness: 4
+    typ: all
     type: negative
     width: 3
   - filter: ''
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1729,7 +1739,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1737,13 +1747,14 @@ thing:
     - 0.0
     - 0.0
     - 0
-    save_type: none
+    save_type: all
     shape: rounded_rectangle
     size:
     - 10
     - 10
     - 4
     thickness: 4
+    typ: all
     type: positive
     width: 3
   - extra_clearance: -0.25
@@ -1752,7 +1763,7 @@ thing:
     hole: true
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1760,7 +1771,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1769,16 +1780,17 @@ thing:
     - 15.0
     - 0
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_nut
     thickness: 4
+    typ: all
     type: negative
     width: 3
   - filter: ''
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1786,7 +1798,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1794,13 +1806,14 @@ thing:
     - 0.0
     - 15.0
     - 0
-    save_type: none
+    save_type: all
     shape: rounded_rectangle
     size:
     - 10
     - 10
     - 4
     thickness: 4
+    typ: all
     type: positive
     width: 3
   - extra_clearance: -0.25
@@ -1809,7 +1822,7 @@ thing:
     hole: true
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1817,7 +1830,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1826,16 +1839,17 @@ thing:
     - -15.0
     - 0
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_nut
     thickness: 4
+    typ: all
     type: negative
     width: 3
   - filter: ''
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1843,7 +1857,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1851,13 +1865,14 @@ thing:
     - 15.0
     - -15.0
     - 0
-    save_type: none
+    save_type: all
     shape: rounded_rectangle
     size:
     - 10
     - 10
     - 4
     thickness: 4
+    typ: all
     type: positive
     width: 3
   - extra_clearance: -0.25
@@ -1866,7 +1881,7 @@ thing:
     hole: true
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1874,7 +1889,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1883,16 +1898,17 @@ thing:
     - 0.0
     - 0
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_nut
     thickness: 4
+    typ: all
     type: negative
     width: 3
   - filter: ''
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1900,7 +1916,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1908,13 +1924,14 @@ thing:
     - 15.0
     - 0.0
     - 0
-    save_type: none
+    save_type: all
     shape: rounded_rectangle
     size:
     - 10
     - 10
     - 4
     thickness: 4
+    typ: all
     type: positive
     width: 3
   - extra_clearance: -0.25
@@ -1923,7 +1940,7 @@ thing:
     hole: true
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1931,7 +1948,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1940,16 +1957,17 @@ thing:
     - 15.0
     - 0
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_nut
     thickness: 4
+    typ: all
     type: negative
     width: 3
   - filter: ''
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1957,7 +1975,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1965,20 +1983,21 @@ thing:
     - 15.0
     - 15.0
     - 0
-    save_type: none
+    save_type: all
     shape: rounded_rectangle
     size:
     - 10
     - 10
     - 4
     thickness: 4
+    typ: all
     type: positive
     width: 3
   - filter: ''
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -1986,7 +2005,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -1995,20 +2014,21 @@ thing:
     - -15.0
     - 0
     radius: 1
-    save_type: none
+    save_type: all
     shape: rounded_rectangle
     size:
     - 45
     - 2
     - 2
     thickness: 4
+    typ: all
     type: positive
     width: 3
   - filter: ''
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -2016,7 +2036,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2025,20 +2045,21 @@ thing:
     - 0.0
     - 0
     radius: 1
-    save_type: none
+    save_type: all
     shape: rounded_rectangle
     size:
     - 45
     - 2
     - 2
     thickness: 4
+    typ: all
     type: positive
     width: 3
   - filter: ''
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -2046,7 +2067,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2055,20 +2076,21 @@ thing:
     - 15.0
     - 0
     radius: 1
-    save_type: none
+    save_type: all
     shape: rounded_rectangle
     size:
     - 45
     - 2
     - 2
     thickness: 4
+    typ: all
     type: positive
     width: 3
   - filter: ''
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -2076,7 +2098,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2085,20 +2107,21 @@ thing:
     - 0
     - 0
     radius: 1
-    save_type: none
+    save_type: all
     shape: rounded_rectangle
     size:
     - 2
     - 45
     - 2
     thickness: 4
+    typ: all
     type: positive
     width: 3
   - filter: ''
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -2106,7 +2129,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2115,20 +2138,21 @@ thing:
     - 0
     - 0
     radius: 1
-    save_type: none
+    save_type: all
     shape: rounded_rectangle
     size:
     - 2
     - 45
     - 2
     thickness: 4
+    typ: all
     type: positive
     width: 3
   - filter: ''
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -2136,7 +2160,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -2145,40 +2169,41 @@ thing:
     - 0
     - 0
     radius: 1
-    save_type: none
+    save_type: all
     shape: rounded_rectangle
     size:
     - 2
     - 45
     - 2
     thickness: 4
+    typ: all
     type: positive
     width: 3
   components_string:
-  - oobb_nut_shape_negative_type_m3_radius_name_-15.0_-15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
-  - rounded_rectangle_shape_positive_type_-15.0_-15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
-  - oobb_nut_shape_negative_type_m3_radius_name_-15.0_0.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
-  - rounded_rectangle_shape_positive_type_-15.0_0.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
-  - oobb_nut_shape_negative_type_m3_radius_name_-15.0_15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
-  - rounded_rectangle_shape_positive_type_-15.0_15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
-  - oobb_nut_shape_negative_type_m3_radius_name_0.0_-15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
-  - rounded_rectangle_shape_positive_type_0.0_-15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
-  - oobb_nut_shape_negative_type_m3_radius_name_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
-  - rounded_rectangle_shape_positive_type_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
-  - oobb_nut_shape_negative_type_m3_radius_name_0.0_15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
-  - rounded_rectangle_shape_positive_type_0.0_15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
-  - oobb_nut_shape_negative_type_m3_radius_name_15.0_-15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
-  - rounded_rectangle_shape_positive_type_15.0_-15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
-  - oobb_nut_shape_negative_type_m3_radius_name_15.0_0.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
-  - rounded_rectangle_shape_positive_type_15.0_0.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
-  - oobb_nut_shape_negative_type_m3_radius_name_15.0_15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
-  - rounded_rectangle_shape_positive_type_15.0_15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
-  - rounded_rectangle_shape_positive_type_0_-15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_45_2_2_size
-  - rounded_rectangle_shape_positive_type_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_45_2_2_size
-  - rounded_rectangle_shape_positive_type_0_15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_45_2_2_size
-  - rounded_rectangle_shape_positive_type_-15.0_0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_2_45_2_size
-  - rounded_rectangle_shape_positive_type_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_2_45_2_size
-  - rounded_rectangle_shape_positive_type_15.0_0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_2_45_2_size
+  - oobb_nut_shape_negative_type_m3_radius_name_-15.0_-15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_-15.0_-15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - oobb_nut_shape_negative_type_m3_radius_name_-15.0_0.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_-15.0_0.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - oobb_nut_shape_negative_type_m3_radius_name_-15.0_15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_-15.0_15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - oobb_nut_shape_negative_type_m3_radius_name_0.0_-15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_0.0_-15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - oobb_nut_shape_negative_type_m3_radius_name_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - oobb_nut_shape_negative_type_m3_radius_name_0.0_15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_0.0_15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - oobb_nut_shape_negative_type_m3_radius_name_15.0_-15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_15.0_-15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - oobb_nut_shape_negative_type_m3_radius_name_15.0_0.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_15.0_0.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - oobb_nut_shape_negative_type_m3_radius_name_15.0_15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_15.0_15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - rounded_rectangle_shape_positive_type_0_-15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_45_2_2_size
+  - rounded_rectangle_shape_positive_type_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_45_2_2_size
+  - rounded_rectangle_shape_positive_type_0_15.0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_45_2_2_size
+  - rounded_rectangle_shape_positive_type_-15.0_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_2_45_2_size
+  - rounded_rectangle_shape_positive_type_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_2_45_2_size
+  - rounded_rectangle_shape_positive_type_15.0_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_2_45_2_size
   description: oomlout ball run backboard 3x3x4
   description_extra: ''
   description_main: 3_width_3_height_4_mm_depth

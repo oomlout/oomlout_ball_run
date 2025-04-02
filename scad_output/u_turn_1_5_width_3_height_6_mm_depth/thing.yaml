@@ -17,7 +17,7 @@ kwargs:
   height: 3
   modes:
   - 3dpr
-  navigation: false
+  navigation: true
   oomp_classification: project
   oomp_color: oomlout_ball_run
   oomp_description_extra: ''
@@ -25,11 +25,12 @@ kwargs:
   oomp_manufacturer: ''
   oomp_mode: project
   oomp_part_number: ''
-  oomp_run: false
+  oomp_run: true
   oomp_size: oomlout
   oomp_type: github
   overwrite: true
   thickness: 6
+  typ: all
   type: oomlout_ball_run_u_turn
   width: 1.5
 manufacturer: ''
@@ -170,7 +171,7 @@ thing:
     height: 3
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -178,7 +179,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -186,9 +187,10 @@ thing:
     - 11.25
     - 0
     - 0
-    save_type: none
+    save_type: all
     shape: oobb_plate
     thickness: 6
+    typ: all
     type: positive
     width: 1.5
   - depth: 6
@@ -197,7 +199,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -205,7 +207,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -214,9 +216,10 @@ thing:
     - 0
     - 0
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_hole
     thickness: 6
+    typ: all
     type: negative
     width: 1.5
   - depth: 6
@@ -225,7 +228,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -233,7 +236,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -242,9 +245,10 @@ thing:
     - 15
     - 0
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_hole
     thickness: 6
+    typ: all
     type: negative
     width: 1.5
   - depth: 6
@@ -253,7 +257,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -261,7 +265,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -270,9 +274,10 @@ thing:
     - -15
     - 0
     radius_name: m3
-    save_type: none
+    save_type: all
     shape: oobb_hole
     thickness: 6
+    typ: all
     type: negative
     width: 1.5
   - depth: 6.5
@@ -282,7 +287,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
-    navigation: false
+    navigation: true
     oomp_classification: project
     oomp_color: oomlout_ball_run
     oomp_description_extra: ''
@@ -290,7 +295,7 @@ thing:
     oomp_manufacturer: ''
     oomp_mode: project
     oomp_part_number: ''
-    oomp_run: false
+    oomp_run: true
     oomp_size: oomlout
     oomp_type: github
     overwrite: true
@@ -298,17 +303,18 @@ thing:
     - 0
     - 0
     - 4.0
-    save_type: none
+    save_type: all
     shape: oring
     thickness: 6
+    typ: all
     type: negative
     width: 1.5
   components_string:
-  - oobb_plate_shape_positive_type_6_depth_11.25_0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1.5_width_3_height_6_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color
-  - oobb_hole_shape_negative_type_m3_radius_name_6_depth_7.5_0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1.5_width_3_height_6_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color
-  - oobb_hole_shape_negative_type_m3_radius_name_6_depth_15_15_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1.5_width_3_height_6_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color
-  - oobb_hole_shape_negative_type_m3_radius_name_6_depth_15_-15_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1.5_width_3_height_6_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color
-  - oring_shape_negative_type_6.5_depth_0_0_4.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1.5_width_3_height_6_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_13.375_id
+  - oobb_plate_shape_positive_type_6_depth_11.25_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1.5_width_3_height_6_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color
+  - oobb_hole_shape_negative_type_m3_radius_name_6_depth_7.5_0_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1.5_width_3_height_6_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color
+  - oobb_hole_shape_negative_type_m3_radius_name_6_depth_15_15_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1.5_width_3_height_6_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color
+  - oobb_hole_shape_negative_type_m3_radius_name_6_depth_15_-15_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1.5_width_3_height_6_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color
+  - oring_shape_negative_type_6.5_depth_0_0_4.0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_1.5_width_3_height_6_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_13.375_id
   description: oomlout ball run u turn 1.5x3x6
   description_extra: ''
   description_main: 1_5_width_3_height_6_mm_depth
