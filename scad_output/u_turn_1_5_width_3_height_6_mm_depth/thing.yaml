@@ -1,0 +1,332 @@
+classification: project
+color: oomlout_ball_run
+description_extra: ''
+description_main: u_turn_1_5_width_3_height_6_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: project_github_oomlout_oomlout_ball_run_u_turn_1_5_width_3_height_6_mm_depth
+id_oobb: oobb_part_oomlout_ball_run_u_turn_1_5_width_3_height_6_mm_depth
+kwargs:
+  filter: ''
+  height: 3
+  modes:
+  - 3dpr
+  navigation: false
+  oomp_classification: project
+  oomp_color: oomlout_ball_run
+  oomp_description_extra: ''
+  oomp_description_main: u_turn_1_5_width_3_height_6_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: project
+  oomp_part_number: ''
+  oomp_run: false
+  oomp_size: oomlout
+  oomp_type: github
+  overwrite: true
+  thickness: 6
+  type: oomlout_ball_run_u_turn
+  width: 1.5
+manufacturer: ''
+name: u_turn
+part_number: ''
+project_name: C:\gh\oomlout_ball_run
+size: oomlout
+thing:
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 6
+      height: 3
+      pos:
+      - 11.25
+      - 0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 21.5
+      - 44
+      - 6
+      type: positive
+      width: 1.5
+  - - depth: 6
+      h: 6
+      height: 3
+      inclusion: laser
+      m: '#'
+      pos: &id001
+      - 7.5
+      - 0
+      - 0
+      r: 1.5
+      shape: cylinder
+      type: negative
+      width: 1.5
+    - depth: 6
+      h: 6
+      height: 3
+      inclusion: 3dpr
+      m: '#'
+      pos: *id001
+      r: 1.8
+      shape: cylinder
+      type: negative
+      width: 1.5
+    - depth: 6
+      h: 6
+      height: 3
+      inclusion: 'true'
+      m: '#'
+      pos: *id001
+      r: 1.5
+      shape: cylinder
+      type: negative
+      width: 1.5
+  - - depth: 6
+      h: 6
+      height: 3
+      inclusion: laser
+      m: '#'
+      pos: &id002
+      - 15
+      - 15
+      - 0
+      r: 1.5
+      shape: cylinder
+      type: negative
+      width: 1.5
+    - depth: 6
+      h: 6
+      height: 3
+      inclusion: 3dpr
+      m: '#'
+      pos: *id002
+      r: 1.8
+      shape: cylinder
+      type: negative
+      width: 1.5
+    - depth: 6
+      h: 6
+      height: 3
+      inclusion: 'true'
+      m: '#'
+      pos: *id002
+      r: 1.5
+      shape: cylinder
+      type: negative
+      width: 1.5
+  - - depth: 6
+      h: 6
+      height: 3
+      inclusion: laser
+      m: '#'
+      pos: &id003
+      - 15
+      - -15
+      - 0
+      r: 1.5
+      shape: cylinder
+      type: negative
+      width: 1.5
+    - depth: 6
+      h: 6
+      height: 3
+      inclusion: 3dpr
+      m: '#'
+      pos: *id003
+      r: 1.8
+      shape: cylinder
+      type: negative
+      width: 1.5
+    - depth: 6
+      h: 6
+      height: 3
+      inclusion: 'true'
+      m: '#'
+      pos: *id003
+      r: 1.5
+      shape: cylinder
+      type: negative
+      width: 1.5
+  - - depth: 6.5
+      height: 3
+      id: 13.375
+      m: '#'
+      pos:
+      - 0
+      - 0
+      - 4.0
+      shape: oring
+      type: negative
+      width: 1.5
+  components_objects:
+  - depth: 6
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 11.25
+    - 0
+    - 0
+    save_type: none
+    shape: oobb_plate
+    thickness: 6
+    type: positive
+    width: 1.5
+  - depth: 6
+    filter: ''
+    height: 3
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 7.5
+    - 0
+    - 0
+    radius_name: m3
+    save_type: none
+    shape: oobb_hole
+    thickness: 6
+    type: negative
+    width: 1.5
+  - depth: 6
+    filter: ''
+    height: 3
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 15
+    - 15
+    - 0
+    radius_name: m3
+    save_type: none
+    shape: oobb_hole
+    thickness: 6
+    type: negative
+    width: 1.5
+  - depth: 6
+    filter: ''
+    height: 3
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 15
+    - -15
+    - 0
+    radius_name: m3
+    save_type: none
+    shape: oobb_hole
+    thickness: 6
+    type: negative
+    width: 1.5
+  - depth: 6.5
+    filter: ''
+    height: 3
+    id: 13.375
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 4.0
+    save_type: none
+    shape: oring
+    thickness: 6
+    type: negative
+    width: 1.5
+  components_string:
+  - oobb_plate_shape_positive_type_6_depth_11.25_0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1.5_width_3_height_6_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color
+  - oobb_hole_shape_negative_type_m3_radius_name_6_depth_7.5_0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1.5_width_3_height_6_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color
+  - oobb_hole_shape_negative_type_m3_radius_name_6_depth_15_15_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1.5_width_3_height_6_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color
+  - oobb_hole_shape_negative_type_m3_radius_name_6_depth_15_-15_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1.5_width_3_height_6_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color
+  - oring_shape_negative_type_6.5_depth_0_0_4.0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_1.5_width_3_height_6_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_13.375_id
+  description: oomlout ball run u turn 1.5x3x6
+  description_extra: ''
+  description_main: 1_5_width_3_height_6_mm_depth
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_ball_run_u_turn_1_5_width_3_height_6_mm_depth
+  height: 3
+  height_mm: 44
+  id: oobb_part_oomlout_ball_run_u_turn_1_5_width_3_height_6_mm_depth
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_ball_run_u_turn/1_5_width_3_height_6_mm_depth/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_ball_run_u_turn_1d5_03_06
+  manufacturer: ''
+  name: Oobb Part Oomlout Ball Run U Turn 1 5 Width 3 Height 6 mm Depth
+  name_short: 'Oomlout Ball Run U Turn 1 5x3x6 '
+  part_number: ''
+  short_name: ''
+  size: oomlout_ball_run_u_turn
+  thickness: 6
+  thickness_mm: 6
+  type: part
+  width: 1.5
+  width_mm: 21.5
+type: github
