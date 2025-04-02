@@ -9,7 +9,7 @@ import scad_help
 def main(**kwargs):
     make_scad(**kwargs)
 
-shift_up = 2
+shift_up = 1
 
 def make_scad(**kwargs):
     parts = []
