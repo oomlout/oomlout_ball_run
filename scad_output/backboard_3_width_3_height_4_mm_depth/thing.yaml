@@ -1,0 +1,2202 @@
+classification: project
+color: oomlout_ball_run
+description_extra: ''
+description_main: backboard_3_width_3_height_4_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: project_github_oomlout_oomlout_ball_run_backboard_3_width_3_height_4_mm_depth
+id_oobb: oobb_part_oomlout_ball_run_backboard_3_width_3_height_4_mm_depth
+kwargs:
+  filter: ''
+  height: 3
+  modes:
+  - 3dpr
+  navigation: false
+  oomp_classification: project
+  oomp_color: oomlout_ball_run
+  oomp_description_extra: ''
+  oomp_description_main: backboard_3_width_3_height_4_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: project
+  oomp_part_number: ''
+  oomp_run: false
+  oomp_size: oomlout
+  oomp_type: github
+  overwrite: true
+  thickness: 4
+  type: oomlout_ball_run_backboard
+  width: 3
+manufacturer: ''
+name: backboard
+part_number: ''
+project_name: C:\gh\oomlout_ball_run
+size: oomlout
+thing:
+  classification: oobb
+  color: ''
+  components:
+  - - objects:
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id001
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id001
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id001
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id002
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id002
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id002
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id003
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id003
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id003
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      pos:
+      - -15.0
+      - -15.0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - height: 3
+      pos:
+      - -15.0
+      - -15.0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 10
+      - 10
+      - 4
+      type: positive
+      width: 3
+  - - objects:
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id004
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id004
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id004
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id005
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id005
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id005
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id006
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id006
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id006
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      pos:
+      - -15.0
+      - 0.0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - height: 3
+      pos:
+      - -15.0
+      - 0.0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 10
+      - 10
+      - 4
+      type: positive
+      width: 3
+  - - objects:
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id007
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id007
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id007
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id008
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id008
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id008
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id009
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id009
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id009
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      pos:
+      - -15.0
+      - 15.0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - height: 3
+      pos:
+      - -15.0
+      - 15.0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 10
+      - 10
+      - 4
+      type: positive
+      width: 3
+  - - objects:
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id010
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id010
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id010
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id011
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id011
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id011
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id012
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id012
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id012
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      pos:
+      - 0.0
+      - -15.0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - height: 3
+      pos:
+      - 0.0
+      - -15.0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 10
+      - 10
+      - 4
+      type: positive
+      width: 3
+  - - objects:
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id013
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id013
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id013
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id014
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id014
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id014
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id015
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id015
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id015
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      pos:
+      - 0.0
+      - 0.0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - height: 3
+      pos:
+      - 0.0
+      - 0.0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 10
+      - 10
+      - 4
+      type: positive
+      width: 3
+  - - objects:
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id016
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id016
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id016
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id017
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id017
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id017
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id018
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id018
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id018
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      pos:
+      - 0.0
+      - 15.0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - height: 3
+      pos:
+      - 0.0
+      - 15.0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 10
+      - 10
+      - 4
+      type: positive
+      width: 3
+  - - objects:
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id019
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id019
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id019
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id020
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id020
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id020
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id021
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id021
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id021
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      pos:
+      - 15.0
+      - -15.0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - height: 3
+      pos:
+      - 15.0
+      - -15.0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 10
+      - 10
+      - 4
+      type: positive
+      width: 3
+  - - objects:
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id022
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id022
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id022
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id023
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id023
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id023
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id024
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id024
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id024
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      pos:
+      - 15.0
+      - 0.0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - height: 3
+      pos:
+      - 15.0
+      - 0.0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 10
+      - 10
+      - 4
+      type: positive
+      width: 3
+  - - objects:
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id025
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id025
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id025
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id026
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id026
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id026
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      - extra_clearance: -0.25
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+        width: 3
+      - - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: laser
+          pos: &id027
+          - 0
+          - 0
+          - -100.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 3dpr
+          pos: *id027
+          r: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+        - extra_clearance: -0.25
+          h: 200
+          height: 3
+          inclusion: 'true'
+          pos: *id027
+          r: 1.5
+          shape: cylinder
+          type: positive
+          width: 3
+      pos:
+      - 15.0
+      - 15.0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - height: 3
+      pos:
+      - 15.0
+      - 15.0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 10
+      - 10
+      - 4
+      type: positive
+      width: 3
+  - - height: 3
+      pos:
+      - 0
+      - -15.0
+      - 0
+      r: 1
+      shape: rounded_rectangle
+      size:
+      - 45
+      - 2
+      - 2
+      type: positive
+      width: 3
+  - - height: 3
+      pos:
+      - 0
+      - 0.0
+      - 0
+      r: 1
+      shape: rounded_rectangle
+      size:
+      - 45
+      - 2
+      - 2
+      type: positive
+      width: 3
+  - - height: 3
+      pos:
+      - 0
+      - 15.0
+      - 0
+      r: 1
+      shape: rounded_rectangle
+      size:
+      - 45
+      - 2
+      - 2
+      type: positive
+      width: 3
+  - - height: 3
+      pos:
+      - -15.0
+      - 0
+      - 0
+      r: 1
+      shape: rounded_rectangle
+      size:
+      - 2
+      - 45
+      - 2
+      type: positive
+      width: 3
+  - - height: 3
+      pos:
+      - 0.0
+      - 0
+      - 0
+      r: 1
+      shape: rounded_rectangle
+      size:
+      - 2
+      - 45
+      - 2
+      type: positive
+      width: 3
+  - - height: 3
+      pos:
+      - 15.0
+      - 0
+      - 0
+      r: 1
+      shape: rounded_rectangle
+      size:
+      - 2
+      - 45
+      - 2
+      type: positive
+      width: 3
+  components_objects:
+  - extra_clearance: -0.25
+    filter: ''
+    height: 3
+    hole: true
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -15.0
+    - -15.0
+    - 0
+    radius_name: m3
+    save_type: none
+    shape: oobb_nut
+    thickness: 4
+    type: negative
+    width: 3
+  - filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -15.0
+    - -15.0
+    - 0
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 10
+    - 10
+    - 4
+    thickness: 4
+    type: positive
+    width: 3
+  - extra_clearance: -0.25
+    filter: ''
+    height: 3
+    hole: true
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -15.0
+    - 0.0
+    - 0
+    radius_name: m3
+    save_type: none
+    shape: oobb_nut
+    thickness: 4
+    type: negative
+    width: 3
+  - filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -15.0
+    - 0.0
+    - 0
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 10
+    - 10
+    - 4
+    thickness: 4
+    type: positive
+    width: 3
+  - extra_clearance: -0.25
+    filter: ''
+    height: 3
+    hole: true
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -15.0
+    - 15.0
+    - 0
+    radius_name: m3
+    save_type: none
+    shape: oobb_nut
+    thickness: 4
+    type: negative
+    width: 3
+  - filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -15.0
+    - 15.0
+    - 0
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 10
+    - 10
+    - 4
+    thickness: 4
+    type: positive
+    width: 3
+  - extra_clearance: -0.25
+    filter: ''
+    height: 3
+    hole: true
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0.0
+    - -15.0
+    - 0
+    radius_name: m3
+    save_type: none
+    shape: oobb_nut
+    thickness: 4
+    type: negative
+    width: 3
+  - filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0.0
+    - -15.0
+    - 0
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 10
+    - 10
+    - 4
+    thickness: 4
+    type: positive
+    width: 3
+  - extra_clearance: -0.25
+    filter: ''
+    height: 3
+    hole: true
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0.0
+    - 0.0
+    - 0
+    radius_name: m3
+    save_type: none
+    shape: oobb_nut
+    thickness: 4
+    type: negative
+    width: 3
+  - filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0.0
+    - 0.0
+    - 0
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 10
+    - 10
+    - 4
+    thickness: 4
+    type: positive
+    width: 3
+  - extra_clearance: -0.25
+    filter: ''
+    height: 3
+    hole: true
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0.0
+    - 15.0
+    - 0
+    radius_name: m3
+    save_type: none
+    shape: oobb_nut
+    thickness: 4
+    type: negative
+    width: 3
+  - filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0.0
+    - 15.0
+    - 0
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 10
+    - 10
+    - 4
+    thickness: 4
+    type: positive
+    width: 3
+  - extra_clearance: -0.25
+    filter: ''
+    height: 3
+    hole: true
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 15.0
+    - -15.0
+    - 0
+    radius_name: m3
+    save_type: none
+    shape: oobb_nut
+    thickness: 4
+    type: negative
+    width: 3
+  - filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 15.0
+    - -15.0
+    - 0
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 10
+    - 10
+    - 4
+    thickness: 4
+    type: positive
+    width: 3
+  - extra_clearance: -0.25
+    filter: ''
+    height: 3
+    hole: true
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 15.0
+    - 0.0
+    - 0
+    radius_name: m3
+    save_type: none
+    shape: oobb_nut
+    thickness: 4
+    type: negative
+    width: 3
+  - filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 15.0
+    - 0.0
+    - 0
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 10
+    - 10
+    - 4
+    thickness: 4
+    type: positive
+    width: 3
+  - extra_clearance: -0.25
+    filter: ''
+    height: 3
+    hole: true
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 15.0
+    - 15.0
+    - 0
+    radius_name: m3
+    save_type: none
+    shape: oobb_nut
+    thickness: 4
+    type: negative
+    width: 3
+  - filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 15.0
+    - 15.0
+    - 0
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 10
+    - 10
+    - 4
+    thickness: 4
+    type: positive
+    width: 3
+  - filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - -15.0
+    - 0
+    radius: 1
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 45
+    - 2
+    - 2
+    thickness: 4
+    type: positive
+    width: 3
+  - filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 0.0
+    - 0
+    radius: 1
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 45
+    - 2
+    - 2
+    thickness: 4
+    type: positive
+    width: 3
+  - filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0
+    - 15.0
+    - 0
+    radius: 1
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 45
+    - 2
+    - 2
+    thickness: 4
+    type: positive
+    width: 3
+  - filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - -15.0
+    - 0
+    - 0
+    radius: 1
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 2
+    - 45
+    - 2
+    thickness: 4
+    type: positive
+    width: 3
+  - filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 0.0
+    - 0
+    - 0
+    radius: 1
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 2
+    - 45
+    - 2
+    thickness: 4
+    type: positive
+    width: 3
+  - filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: project
+    oomp_color: oomlout_ball_run
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: project
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: oomlout
+    oomp_type: github
+    overwrite: true
+    pos:
+    - 15.0
+    - 0
+    - 0
+    radius: 1
+    save_type: none
+    shape: rounded_rectangle
+    size:
+    - 2
+    - 45
+    - 2
+    thickness: 4
+    type: positive
+    width: 3
+  components_string:
+  - oobb_nut_shape_negative_type_m3_radius_name_-15.0_-15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_-15.0_-15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - oobb_nut_shape_negative_type_m3_radius_name_-15.0_0.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_-15.0_0.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - oobb_nut_shape_negative_type_m3_radius_name_-15.0_15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_-15.0_15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - oobb_nut_shape_negative_type_m3_radius_name_0.0_-15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_0.0_-15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - oobb_nut_shape_negative_type_m3_radius_name_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - oobb_nut_shape_negative_type_m3_radius_name_0.0_15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_0.0_15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - oobb_nut_shape_negative_type_m3_radius_name_15.0_-15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_15.0_-15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - oobb_nut_shape_negative_type_m3_radius_name_15.0_0.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_15.0_0.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - oobb_nut_shape_negative_type_m3_radius_name_15.0_15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_-0.25_extra_clearance_true_hole
+  - rounded_rectangle_shape_positive_type_15.0_15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_10_10_4_size
+  - rounded_rectangle_shape_positive_type_0_-15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_45_2_2_size
+  - rounded_rectangle_shape_positive_type_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_45_2_2_size
+  - rounded_rectangle_shape_positive_type_0_15.0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_45_2_2_size
+  - rounded_rectangle_shape_positive_type_-15.0_0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_2_45_2_size
+  - rounded_rectangle_shape_positive_type_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_2_45_2_size
+  - rounded_rectangle_shape_positive_type_15.0_0_0_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_3_width_3_height_4_thickness_project_oomp_classification_github_oomp_type_oomlout_oomp_size_oomlout_ball_run_oomp_color_1_radius_2_45_2_size
+  description: oomlout ball run backboard 3x3x4
+  description_extra: ''
+  description_main: 3_width_3_height_4_mm_depth
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_ball_run_backboard_3_width_3_height_4_mm_depth
+  height: 3
+  height_mm: 44
+  id: oobb_part_oomlout_ball_run_backboard_3_width_3_height_4_mm_depth
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_ball_run_backboard/3_width_3_height_4_mm_depth/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_ball_run_backboard_03_03_04
+  manufacturer: ''
+  name: Oobb Part Oomlout Ball Run Backboard 3 Width 3 Height 4 mm Depth
+  name_short: 'Oomlout Ball Run Backboard 3x3x4 '
+  part_number: ''
+  short_name: ''
+  size: oomlout_ball_run_backboard
+  thickness: 4
+  thickness_mm: 4
+  type: part
+  width: 3
+  width_mm: 44
+type: github

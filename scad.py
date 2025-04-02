@@ -25,9 +25,14 @@ def make_scad(**kwargs):
     oomp_mode = "project"
     #oomp_mode = "oobb"
 
+    test = True
+    #test = False
+
     if typ == "all":
-        filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True
-        #filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True
+        #test true
+        #filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True; test = True
+        #default
+        filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True; test = True
     elif typ == "fast":
         filter = ""; save_type = "none"; navigation = False; overwrite = True; modes = ["3dpr"]; oomp_run = False
     elif typ == "manual":
@@ -133,8 +138,11 @@ def make_scad(**kwargs):
                 nam = "test"
                 part["name"] = nam
                 if oomp_mode == "oobb":
-                    p3["oomp_size"] = nam
-                parts.append(part)
+                    p3["oomp_size"] = nam#
+                if not test:
+                #if test or not test:
+                    parts.append(part)
+                
 
         #flats
         if True:
@@ -153,8 +161,51 @@ def make_scad(**kwargs):
                 part["name"] = nam
                 if oomp_mode == "oobb":
                     p3["oomp_size"] = nam
-                parts.append(part)
+                if not test:
+                #if test or not test:
+                    parts.append(part)
 
+        #backboard
+        if True:
+            sizes = []
+            sizes.append([3,3])    
+
+            for size in sizes:
+                wid, hei = size
+                part = copy.deepcopy(part_default)
+                p3 = copy.deepcopy(kwargs)
+                p3["width"] = wid
+                p3["height"] = hei
+                p3["thickness"] = 4
+                part["kwargs"] = p3
+                nam = f"backboard"
+                part["name"] = nam
+                if oomp_mode == "oobb":
+                    p3["oomp_size"] = nam
+                if not test:
+                #if test or not test:
+                    parts.append(part)
+
+        #uturn
+        if True:
+            sizes = []
+            sizes.append([3,2])    
+
+            for size in sizes:
+                wid, hei = size
+                part = copy.deepcopy(part_default)
+                p3 = copy.deepcopy(kwargs)
+                p3["width"] = wid
+                p3["height"] = hei
+                p3["thickness"] = 4
+                part["kwargs"] = p3
+                nam = f"uturn"
+                part["name"] = nam
+                if oomp_mode == "oobb":
+                    p3["oomp_size"] = nam
+                if not test:
+                #if test or not test:
+                    parts.append(part)
 
     kwargs["parts"] = parts
 
@@ -206,6 +257,141 @@ def get_base(thing, **kwargs):
     pos1 = copy.deepcopy(pos)         
     p3["pos"] = pos1
     oobb_base.append_full(thing,**p3)
+
+    if prepare_print:
+        #put into a rotation object
+        components_second = copy.deepcopy(thing["components"])
+        return_value_2 = {}
+        return_value_2["type"]  = "rotation"
+        return_value_2["typetype"]  = "p"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += 50
+        return_value_2["pos"] = pos1
+        return_value_2["rot"] = [180,0,0]
+        return_value_2["objects"] = components_second
+        
+        thing["components"].append(return_value_2)
+
+    
+        #add slice # top
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "n"
+        p3["shape"] = f"oobb_slice"
+        pos1 = copy.deepcopy(pos)
+        pos1[0] += -500/2
+        pos1[1] += 0
+        pos1[2] += -500/2        
+        p3["pos"] = pos1
+        #p3["m"] = "#"
+        oobb_base.append_full(thing,**p3)
+
+def get_backboard(thing, **kwargs):
+
+    prepare_print = kwargs.get("prepare_print", False)
+    width = kwargs.get("width", 1)
+    height = kwargs.get("height", 1)
+    depth = kwargs.get("thickness", 3)                    
+    rot = kwargs.get("rot", [0, 0, 0])
+    pos = kwargs.get("pos", [0, 0, 0])
+    extra = kwargs.get("extra", "")
+    
+    #add plate
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "positive"
+    p3["shape"] = f"oobb_plate"    
+    p3["depth"] = depth
+    #p3["holes"] = True         uncomment to include default holes
+    #p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)         
+    p3["pos"] = pos1
+    #oobb_base.append_full(thing,**p3)
+    
+    #add nuts
+    start_x = -width/2 * 15 + 15/2
+    start_y = -height/2 * 15 + 15/2
+    for col in range(width):
+        for row in range(height):
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = "negative"
+            p3["shape"] = f"oobb_nut"                
+            p3["radius_name"] = "m3"
+            p3["extra_clearance"] = -0.25
+            #p3["m"] = "#"
+            p3["hole"] = True
+            pos1 = copy.deepcopy(pos)         
+            pos1[0] += start_x + 15 * col
+            pos1[1] += start_y + 15 * row
+            p3["pos"] = pos1
+            oobb_base.append_full(thing,**p3)
+            # add cylinder in same spot
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = "positive"
+            p3["shape"] = f"rounded_rectangle"
+            wid = 10
+            hei = 10
+            dep = depth
+            size = [wid, hei, dep]
+            p3["size"] = size            
+            #p3["m"] = "#"
+            pos11 = copy.deepcopy(pos1)
+            #pos11[2] += depth
+            p3["pos"] = pos11
+            oobb_base.append_full(thing,**p3)
+
+    #add joiners
+    if True:
+        beam_height = 2
+        beam_depth = 2
+        for col in range(width):
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = "positive"
+            p3["shape"] = f"rounded_rectangle"
+            p3["radius"] = 1
+            wid = (width * 15)
+            hei = beam_height
+            dep = beam_depth
+            size = [wid, hei, dep]
+            p3["size"] = size
+            #p3["m"] = "#"
+            pos1 = copy.deepcopy(pos)
+            pos1[0] += 0
+            pos1[1] += -height/2 * 15 + 15/2 + col * 15
+            pos1[2] += 0
+            p3["pos"] = pos1
+            oobb_base.append_full(thing,**p3)
+
+        for row in range(height):
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = "positive"
+            p3["shape"] = f"rounded_rectangle"
+            p3["radius"] = 1
+            hei = (height * 15)
+            wid = beam_height
+            dep = beam_depth
+            size = [wid, hei, dep]
+            p3["size"] = size
+            #p3["m"] = "#"
+            pos1 = copy.deepcopy(pos)
+            pos1[0] += -width/2 * 15 + 15/2 + row * 15
+            pos1[1] += 0
+            pos1[2] += 0
+            p3["pos"] = pos1
+            oobb_base.append_full(thing,**p3)
+
+
+
+
+    #add holes seperate
+    p3 = copy.deepcopy(kwargs)
+    p3["type"] = "p"
+    p3["shape"] = f"oobb_holes"
+    p3["both_holes"] = True  
+    p3["depth"] = depth
+    p3["holes"] = "perimeter"
+    #p3["m"] = "#"
+    pos1 = copy.deepcopy(pos)         
+    p3["pos"] = pos1
+    #oobb_base.append_full(thing,**p3)
 
     if prepare_print:
         #put into a rotation object
