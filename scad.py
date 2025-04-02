@@ -34,7 +34,7 @@ def make_scad(**kwargs):
         #test true
         #filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True; test = True
         #default
-        filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True; test = True
+        filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True; test = False
     elif typ == "fast":
         filter = ""; save_type = "none"; navigation = False; overwrite = True; modes = ["3dpr"]; oomp_run = False
     elif typ == "manual":
@@ -163,8 +163,8 @@ def make_scad(**kwargs):
                 part["name"] = nam
                 if oomp_mode == "oobb":
                     p3["oomp_size"] = nam
-                if not test:
-                #if test or not test:
+                #if not test:
+                if test or not test:
                     parts.append(part)
 
         #backboard
@@ -321,7 +321,7 @@ def get_backboard(thing, **kwargs):
             p3["type"] = "negative"
             p3["shape"] = f"oobb_nut"                
             p3["radius_name"] = "m3"
-            p3["extra_clearance"] = -0.25
+            p3["extra_clearance"] = -0.5
             #p3["m"] = "#"
             p3["hole"] = True
             pos1 = copy.deepcopy(pos)         
@@ -659,13 +659,13 @@ def get_flat(thing, **kwargs):
     #add plate uppies
     shift_left = width/2 * 15 - 15/2
     shift_right = -width/2 * 15 + 15/2
-    shift_z = 15/4
+    shift_z = 15/2
     if True:
         p3 = copy.deepcopy(kwargs)
         p3["type"] = "positive"
         p3["shape"] = f"oobb_plate"    
         p3["width"] = 1
-        p3["height"] = 1.5
+        p3["height"] = 2
         p3["depth"] = depth
         #p3["holes"] = True         uncomment to include default holes
         #p3["m"] = "#"
@@ -691,7 +691,7 @@ def get_flat(thing, **kwargs):
         p3["radius_name"] = "m3"
         p3["m"] = "#"
         pos1 = copy.deepcopy(pos)         
-        pos1[1] += 7.5
+        pos1[1] += 15
         poss = []
         pos11 = copy.deepcopy(pos1)
         pos11[0] += shift_left
