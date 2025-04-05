@@ -32,7 +32,7 @@ difference() {
 		}
 		translate(v = [0, 0, 4.0000000000]) {
 			#rotate_extrude(angle = 360) {
-				translate(v = [16.6250000000, 0, 0]) {
+				translate(v = [16.7500000000, 0, 0]) {
 					circle(r = 3.2500000000);
 				}
 			}

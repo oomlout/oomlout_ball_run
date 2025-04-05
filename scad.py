@@ -12,6 +12,7 @@ def main(**kwargs):
 shift_up = 1
 clear_6_mm_diameter = 0.5/2
 radius_ball_6_mm = 6/2 + clear_6_mm_diameter
+radius_6_mm  = 6/2
 
 def make_scad(**kwargs):
     parts = []
@@ -598,7 +599,7 @@ def get_u_turn(thing, **kwargs):
         p3["type"] = "negative"
         p3["shape"] = f"oring"         
         p3["depth"] = radius_ball_6_mm * 2
-        p3["id"] = 15 - radius_ball_6_mm/2
+        p3["id"] = 15 - radius_6_mm/2#15 - radius_ball_6_mm/2        
         p3["m"] = "#"
         pos1 = copy.deepcopy(pos)         
         pos1[0] += 0

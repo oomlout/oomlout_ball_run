@@ -1,4 +1,46 @@
 parts:
+  backboard_11_width_11_height_4_mm_depth:
+    classification: project
+    color: oomlout_ball_run
+    description_extra: ''
+    description_main: backboard_11_width_11_height_4_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_ball_run_backboard_11_width_11_height_4_mm_depth
+    id_oobb: oobb_part_oomlout_ball_run_backboard_11_width_11_height_4_mm_depth
+    kwargs:
+      filter: ''
+      height: 11
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_ball_run
+      oomp_description_extra: ''
+      oomp_description_main: backboard_11_width_11_height_4_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      thickness: 4
+      typ: all
+      type: oomlout_ball_run_backboard
+      width: 11
+    manufacturer: ''
+    name: backboard
+    part_number: ''
+    project_name: C:\gh\oomlout_ball_run
+    size: oomlout
+    type: github
   backboard_3_width_3_height_4_mm_depth:
     classification: project
     color: oomlout_ball_run
@@ -41,6 +83,132 @@ parts:
     project_name: C:\gh\oomlout_ball_run
     size: oomlout
     type: github
+  backboard_5_width_5_height_4_mm_depth:
+    classification: project
+    color: oomlout_ball_run
+    description_extra: ''
+    description_main: backboard_5_width_5_height_4_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_ball_run_backboard_5_width_5_height_4_mm_depth
+    id_oobb: oobb_part_oomlout_ball_run_backboard_5_width_5_height_4_mm_depth
+    kwargs:
+      filter: ''
+      height: 5
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_ball_run
+      oomp_description_extra: ''
+      oomp_description_main: backboard_5_width_5_height_4_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      thickness: 4
+      typ: all
+      type: oomlout_ball_run_backboard
+      width: 5
+    manufacturer: ''
+    name: backboard
+    part_number: ''
+    project_name: C:\gh\oomlout_ball_run
+    size: oomlout
+    type: github
+  backboard_7_width_7_height_4_mm_depth:
+    classification: project
+    color: oomlout_ball_run
+    description_extra: ''
+    description_main: backboard_7_width_7_height_4_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_ball_run_backboard_7_width_7_height_4_mm_depth
+    id_oobb: oobb_part_oomlout_ball_run_backboard_7_width_7_height_4_mm_depth
+    kwargs:
+      filter: ''
+      height: 7
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_ball_run
+      oomp_description_extra: ''
+      oomp_description_main: backboard_7_width_7_height_4_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      thickness: 4
+      typ: all
+      type: oomlout_ball_run_backboard
+      width: 7
+    manufacturer: ''
+    name: backboard
+    part_number: ''
+    project_name: C:\gh\oomlout_ball_run
+    size: oomlout
+    type: github
+  backboard_9_width_9_height_4_mm_depth:
+    classification: project
+    color: oomlout_ball_run
+    description_extra: ''
+    description_main: backboard_9_width_9_height_4_mm_depth
+    full_rotations:
+    - 0
+    - 0
+    - 0
+    full_shift:
+    - 0
+    - 0
+    - 0
+    id: project_github_oomlout_oomlout_ball_run_backboard_9_width_9_height_4_mm_depth
+    id_oobb: oobb_part_oomlout_ball_run_backboard_9_width_9_height_4_mm_depth
+    kwargs:
+      filter: ''
+      height: 9
+      modes:
+      - 3dpr
+      navigation: true
+      oomp_classification: project
+      oomp_color: oomlout_ball_run
+      oomp_description_extra: ''
+      oomp_description_main: backboard_9_width_9_height_4_mm_depth
+      oomp_manufacturer: ''
+      oomp_mode: project
+      oomp_part_number: ''
+      oomp_run: true
+      oomp_size: oomlout
+      oomp_type: github
+      overwrite: true
+      thickness: 4
+      typ: all
+      type: oomlout_ball_run_backboard
+      width: 9
+    manufacturer: ''
+    name: backboard
+    part_number: ''
+    project_name: C:\gh\oomlout_ball_run
+    size: oomlout
+    type: github
   flat_3_width_1_height_6_mm_depth:
     classification: project
     color: oomlout_ball_run
@@ -61,7 +229,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: project
       oomp_color: oomlout_ball_run
       oomp_description_extra: ''
@@ -69,12 +237,11 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 6
-      typ: all
       type: oomlout_ball_run_flat
       width: 3
     manufacturer: ''
@@ -103,7 +270,7 @@ parts:
       height: 1
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: project
       oomp_color: oomlout_ball_run
       oomp_description_extra: ''
@@ -111,12 +278,11 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 6
-      typ: all
       type: oomlout_ball_run_flat
       width: 6
     manufacturer: ''
@@ -274,7 +440,7 @@ parts:
       height: 3
       modes:
       - 3dpr
-      navigation: true
+      navigation: false
       oomp_classification: project
       oomp_color: oomlout_ball_run
       oomp_description_extra: ''
@@ -282,12 +448,11 @@ parts:
       oomp_manufacturer: ''
       oomp_mode: project
       oomp_part_number: ''
-      oomp_run: true
+      oomp_run: false
       oomp_size: oomlout
       oomp_type: github
       overwrite: true
       thickness: 6
-      typ: all
       type: oomlout_ball_run_u_turn
       width: 1.5
     manufacturer: ''
